@@ -13,9 +13,10 @@
 }
 
 .header {
-    background-color: #2e2e2e;
     width: 100vw;
     height: 7vh;
+    backdrop-filter: blur(250px);
+    border-bottom: 4px solid black;
 }
 
 .area3d {
@@ -55,6 +56,13 @@
     border-radius: 1rem;
     left: 37vw;
     top: 40vh;
+    cursor: pointer;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+    5px  5px 10px #ff0000,
+    5px -5px 10px #ff0000,
+    -5px  5px 10px #ff0000,
+    -5px -5px 10px #ff0000;
 }
 
 .react {
@@ -65,6 +73,13 @@
     border-radius: 1rem;
     left: 10vw;
     top: 70vh;
+    cursor: pointer;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+    5px  5px 10px #00ff2a,
+    5px -5px 10px #00ff2a,
+    -5px  5px 10px #00ff2a,
+    -5px -5px 10px #00ff2a;
 }
 
 .TS {
@@ -94,8 +109,10 @@
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    left: 3vw;
-    top: 55vh;
+    left: -5vw;
+    top: -15vh;
+    text-shadow: none;
+    -webkit-text-stroke: #ffffff;
     transform: translateX(var(--move-3x)) translateY(var(--move-3y));
 }
 
@@ -146,8 +163,10 @@
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    left: 30vw;
-    top: 65vh;
+    left: -5vw;
+    top: 35vh;
+    text-shadow: none;
+    -webkit-text-stroke: #ffffff;
     transform: translateX(var(--move-2x)) translateY(var(--move-2y));
 }
 
@@ -159,8 +178,10 @@
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    left: 55vw;
-    top: 60vh;
+    left: 7vw;
+    top: 20vh;
+    text-shadow: none;
+    -webkit-text-stroke: #ffffff;
     transform: translateX(var(--move-2y)) translateY(var(--move-2x));
 }
 
@@ -172,8 +193,10 @@
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    left: 45vw;
-    top: 80vh;
+    left: 20vw;
+    top: 30vh;
+    text-shadow: none;
+    -webkit-text-stroke: #ffffff;
     transform: translateX(var(--move-4x)) translateY(var(--move-4y));
 }
 
@@ -211,8 +234,10 @@
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    left: 20vw;
-    top: 50vh;
+    left: 10vw;
+    top: -20vh;
+    text-shadow: none;
+    -webkit-text-stroke: #ffffff;
     transform: translateX(var(--move-3y)) translateY(var(--move-3x));
 }
 
@@ -230,4 +255,119 @@
 }
 
 
+.html:hover {
+    cursor: pointer;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+    5px  5px 10px #ff009d,
+    5px -5px 10px #ff009d,
+    -5px  5px 10px #ff009d,
+    -5px -5px 10px #ff009d;
+}
 
+.css:hover {
+    cursor: pointer;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+    5px  5px 10px #ff009d,
+    5px -5px 10px #ff009d,
+    -5px  5px 10px #ff009d,
+    -5px -5px 10px #ff009d;
+}
+
+.redux:hover {
+    cursor: pointer;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+    5px  5px 10px #e5ff00,
+    5px -5px 10px #e5ff00,
+    -5px  5px 10px #e5ff00,
+    -5px -5px 10px #e5ff00;
+}
+
+.TS:hover {
+    cursor: pointer;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+    5px  5px 10px #0004ff,
+    5px -5px 10px #0004ff,
+    -5px  5px 10px #0004ff,
+    -5px -5px 10px #0004ff;
+}
+
+.react:hover .useState {
+    transition: 1s;
+    color: #00ff2a;
+    border: 0.1rem solid #00ff2a;
+    cursor: default;
+}
+
+.react:hover .useEffect {
+    transition: 1s;
+    color: #00ff2a;
+    border: 0.1rem solid #00ff2a;
+    cursor: default;
+}
+
+.head:hover {
+    transition: 1s;
+    color: #ff009d;
+    border: 0.1rem solid #ff009d;
+    cursor: default;
+}
+
+.link:hover {
+    transition: 1s;
+    color: #ff009d;
+    border: 0.1rem solid #ff009d;
+    cursor: default;
+}
+
+.javascript:hover .function {
+    transition: 1s;
+    color: #ff0000;
+    border: 0.1rem solid #ff0000;
+    cursor: default;
+}
+
+.javascript:hover .map {
+    transition: 1s;
+    color: #ff0000;
+    border: 0.1rem solid #ff0000;
+    cursor: default;
+}
+
+.javascript:hover .const {
+    transition: 1s;
+    color: #ff0000;
+    border: 0.1rem solid #ff0000;
+    cursor: default;
+}
+
+.store:hover {
+    transition: 1s;
+    color: #e5ff00;
+    border: 0.1rem solid #e5ff00;
+    cursor: default;
+}
+
+.slice:hover {
+    transition: 1s;
+    color: #e5ff00;
+    border: 0.1rem solid #e5ff00;
+    cursor: default;
+}
+
+.interface:hover {
+    transition: 1s;
+    color: #0004ff;
+    border: 0.1rem solid #0004ff;
+    cursor: default;
+}
+
+.enum:hover {
+    transition: 1s;
+    color: #0004ff;
+    border: 0.1rem solid #0004ff;
+    cursor: default;
+}
