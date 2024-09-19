@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Grandstander;
+}
+
+.mainPage {
+    background-color: rgb(41, 39, 39);
+    background-image: url('./img/fon.jpg');
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    background-color: #2e2e2e;
+    width: 100vw;
+    height: 7vh;
+}
+
+.area3d {
+    width: 100vw;
+    height: 93vh;
+    font-size: 3rem;
+    display: grid;
+    position: relative;
+    perspective: 600px;
+}
+
+.html {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 5vw;
+    top: 20vh;
+}
+
+.css {
+    display: block;
+    position: absolute;
+    font-size: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 20vw;
+    top: 10vh;
+}
+
+.javascript {
+    display: block;
+    position: absolute;
+    font-size: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 37vw;
+    top: 40vh;
+}
+
+.react {
+    display: block;
+    position: absolute;
+    font-size: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 10vw;
+    top: 70vh;
+}
+
+.TS {
+    display: block;
+    position: absolute;
+    font-size: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    right: 5vw;
+    top: 15vh;
+}
+
+.redux {
+    display: block;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 1rem;
+    right: 15vw;
+    bottom: 30vh;
+}
+
+.useEffect {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 3vw;
+    top: 55vh;
+    transform: translateX(var(--move-3x)) translateY(var(--move-3y));
+}
+
+.head {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 1vw;
+    top: 5vh;
+    transform: translateX(var(--move-x)) translateY(var(--move-y));
+}
+
+.link {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 10vw;
+    top: 35vh;
+    transform: translateX(var(--move-y)) translateY(var(--move-x));
+}
+
+.store {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 70vw;
+    top: 75vh;
+    transform: translateX(var(--move-4x)) translateY(var(--move-4y));
+}
+
+.function {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 30vw;
+    top: 65vh;
+    transform: translateX(var(--move-2x)) translateY(var(--move-2y));
+}
+
+.const {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 55vw;
+    top: 60vh;
+    transform: translateX(var(--move-2y)) translateY(var(--move-2x));
+}
+
+.map {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 45vw;
+    top: 80vh;
+    transform: translateX(var(--move-4x)) translateY(var(--move-4y));
+}
+
+.enum {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 90vw;
+    top: 40vh;
+    transform: translateX(var(--move-3x)) translateY(var(--move-3y));
+}
+
+.slice {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 87vw;
+    top: 70vh;
+    transform: translateX(var(--move-2y)) translateY(var(--move-2x));
+}
+
+.useState {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 20vw;
+    top: 50vh;
+    transform: translateX(var(--move-3y)) translateY(var(--move-3x));
+}
+
+.interface {
+    display: block;
+    position: absolute;
+    border: 0.1rem solid rgb(104, 104, 104);
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    left: 70vw;
+    top: 35vh;
+    transform: translateX(var(--move-3y)) translateY(var(--move-3x));
+}
+
+
+
